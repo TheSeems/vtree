@@ -1,4 +1,6 @@
 QT       += core gui
+QT += opengl
+LIBS += -lOpengl32
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -16,10 +18,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    QNode.cpp \
+    QTree.cpp \
+    RBTree.cpp \
+    SplayTree.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    AVLTree.h \
+    Node.h \
+    Painter.h \
+    QNode.h \
+    QTree.h \
+    RBTree.h \
+    SplayTree.h \
     mainwindow.h
 
 FORMS += \
