@@ -1,6 +1,5 @@
 # vtree
-QT project that helps to visualize trees
-Supports such types of trees as:
+Supports such types of trees:
 - AVL
 - Red-black
 - Splay  
