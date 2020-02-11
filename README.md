@@ -1,5 +1,5 @@
 # vtree
-Done as school assignment less than a week
+Done as school assignment in less than a week  
 Supports such types of trees:
 - AVL
 - Red-black
